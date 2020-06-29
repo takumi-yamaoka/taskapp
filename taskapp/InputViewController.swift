@@ -2,14 +2,13 @@
 //  InputViewController.swift
 //  taskapp
 //
-//  Created by 山岡巧 on 2020/05/30.
+//  Created by 山岡巧 on 2020/06/29.
 //  Copyright © 2020 takumi.yamaoka. All rights reserved.
 //
 
 import UIKit
 
 class InputViewController: UIViewController {
-    
     @IBOutlet weak var titleTextField: UITextField!
     @IBOutlet weak var contentsTextView: UITextView!
     @IBOutlet weak var datePicker: UIDatePicker!

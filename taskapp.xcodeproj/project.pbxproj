@@ -3,31 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		C4FC26E8A322AC49256ECC43 /* Pods_taskapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD6522FF0B2CCDADD9A1636 /* Pods_taskapp.framework */; };
+		D36682BC24A9BF6600120801 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36682BB24A9BF6600120801 /* ViewController.swift */; };
+		D36682BE24A9C2C400120801 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36682BD24A9C2C400120801 /* InputViewController.swift */; };
+		D3A8D97A2487170C007285B1 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A8D9792487170C007285B1 /* Task.swift */; };
 		D3A9CD402481F99D00A6D4DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A9CD3F2481F99D00A6D4DE /* AppDelegate.swift */; };
 		D3A9CD422481F99D00A6D4DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A9CD412481F99D00A6D4DE /* SceneDelegate.swift */; };
-		D3A9CD442481F99D00A6D4DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A9CD432481F99D00A6D4DE /* ViewController.swift */; };
 		D3A9CD472481F99D00A6D4DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A9CD452481F99D00A6D4DE /* Main.storyboard */; };
 		D3A9CD492481F99E00A6D4DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3A9CD482481F99E00A6D4DE /* Assets.xcassets */; };
 		D3A9CD4C2481F99E00A6D4DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A9CD4A2481F99E00A6D4DE /* LaunchScreen.storyboard */; };
-		D3A9CD5424821FF600A6D4DE /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A9CD5324821FF600A6D4DE /* InputViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B908A001CAB6725696D969C9 /* Pods-taskapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taskapp.debug.xcconfig"; path = "Target Support Files/Pods-taskapp/Pods-taskapp.debug.xcconfig"; sourceTree = "<group>"; };
+		D36682BB24A9BF6600120801 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D36682BD24A9C2C400120801 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		D3A8D9792487170C007285B1 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		D3A9CD3C2481F99D00A6D4DE /* taskapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taskapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3A9CD3F2481F99D00A6D4DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3A9CD412481F99D00A6D4DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D3A9CD432481F99D00A6D4DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D3A9CD462481F99D00A6D4DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3A9CD482481F99E00A6D4DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3A9CD4B2481F99E00A6D4DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3A9CD4D2481F99E00A6D4DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D3A9CD5324821FF600A6D4DE /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 		F5DB5E624F737BFAC0DD87F4 /* Pods-taskapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taskapp.release.xcconfig"; path = "Target Support Files/Pods-taskapp/Pods-taskapp.release.xcconfig"; sourceTree = "<group>"; };
 		FDD6522FF0B2CCDADD9A1636 /* Pods_taskapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taskapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -50,7 +52,6 @@
 				B908A001CAB6725696D969C9 /* Pods-taskapp.debug.xcconfig */,
 				F5DB5E624F737BFAC0DD87F4 /* Pods-taskapp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -85,12 +86,13 @@
 			children = (
 				D3A9CD3F2481F99D00A6D4DE /* AppDelegate.swift */,
 				D3A9CD412481F99D00A6D4DE /* SceneDelegate.swift */,
-				D3A9CD432481F99D00A6D4DE /* ViewController.swift */,
-				D3A9CD5324821FF600A6D4DE /* InputViewController.swift */,
+				D36682BB24A9BF6600120801 /* ViewController.swift */,
+				D36682BD24A9C2C400120801 /* InputViewController.swift */,
 				D3A9CD452481F99D00A6D4DE /* Main.storyboard */,
 				D3A9CD482481F99E00A6D4DE /* Assets.xcassets */,
 				D3A9CD4A2481F99E00A6D4DE /* LaunchScreen.storyboard */,
 				D3A9CD4D2481F99E00A6D4DE /* Info.plist */,
+				D3A8D9792487170C007285B1 /* Task.swift */,
 			);
 			path = taskapp;
 			sourceTree = "<group>";
@@ -210,10 +212,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3A9CD442481F99D00A6D4DE /* ViewController.swift in Sources */,
 				D3A9CD402481F99D00A6D4DE /* AppDelegate.swift in Sources */,
+				D36682BE24A9C2C400120801 /* InputViewController.swift in Sources */,
+				D3A8D97A2487170C007285B1 /* Task.swift in Sources */,
+				D36682BC24A9BF6600120801 /* ViewController.swift in Sources */,
 				D3A9CD422481F99D00A6D4DE /* SceneDelegate.swift in Sources */,
-				D3A9CD5424821FF600A6D4DE /* InputViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
